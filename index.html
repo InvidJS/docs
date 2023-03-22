@@ -27,6 +27,29 @@
 <pre><code class="language-js"><span class="hl-0">import</span><span class="hl-1"> </span><span class="hl-2">*</span><span class="hl-1"> </span><span class="hl-0">as</span><span class="hl-1"> </span><span class="hl-3">InvidJS</span><span class="hl-1"> </span><span class="hl-0">from</span><span class="hl-1"> </span><span class="hl-4">&quot;@invidjs/invid-js&quot;</span><span class="hl-1"> </span><span class="hl-5">//TypeScript, ESM Node.js</span><br/><span class="hl-2">const</span><span class="hl-1"> </span><span class="hl-6">InvidJS</span><span class="hl-1"> = </span><span class="hl-7">require</span><span class="hl-1">(</span><span class="hl-4">&quot;@invidjs/invid-js&quot;</span><span class="hl-1">) </span><span class="hl-5">//CSM Node.js</span>
 </code></pre>
 
+<a href="#changes-from-the-stock-invidious-api" id="changes-from-the-stock-invidious-api" style="color: inherit; text-decoration: none;">
+  <h1>Changes from the stock Invidious API</h1>
+</a>
+<ul>
+<li>Useless/broken endpoints, such as annotations, captions and search suggestions are not carried over.</li>
+<li>To reduce noise, only the most important data is fetched in the case of big objects.</li>
+<li>Minimal and basic versions of objects are available to be consistent with different outputs.</li>
+<li>Limit options are provided where they&#39;re not normally supported by the API.</li>
+<li>Several objects and outputs are combined:</li>
+<li><ul>
+<li>Video and Audio formats are a single object.</li>
+</ul>
+</li>
+<li><ul>
+<li>formatStreams and adaptiveFormats are a single array.</li>
+</ul>
+</li>
+<li><ul>
+<li>Playlists and mixes are the same object, and fetched via the same function.</li>
+</ul>
+</li>
+</ul>
+
 <a href="#building-from-source" id="building-from-source" style="color: inherit; text-decoration: none;">
   <h1>Building from source</h1>
 </a>
