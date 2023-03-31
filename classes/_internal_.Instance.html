@@ -31,13 +31,15 @@
 <h3>Param</h3><p>Type of the instance.</p>
 
 <h3>Param</h3><p>URL of the instance.</p>
+
+<h3>Param</h3><p>Latest reported health of the instance.</p>
 </div></section>
 <section class="tsd-panel tsd-hierarchy">
 <h4>Hierarchy</h4>
 <ul class="tsd-hierarchy">
 <li><span class="target">Instance</span></li></ul></section><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/InvidJS/InvidJS/blob/f6c4deb/classes/instance.ts#L11">classes/instance.ts:11</a></li></ul></aside>
+<li>Defined in <a href="https://github.com/InvidJS/InvidJS/blob/24072f7/classes/instance.ts#L12">classes/instance.ts:12</a></li></ul></aside>
 <section class="tsd-panel-group tsd-index-group">
 <section class="tsd-panel tsd-index-panel">
 <details class="tsd-index-content tsd-index-accordion" open><summary class="tsd-accordion-summary tsd-index-summary">
@@ -51,6 +53,7 @@
 <h3 class="tsd-index-heading">Properties</h3>
 <div class="tsd-index-list"><a href="_internal_.Instance.html#api_allowed" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><rect fill="var(--color-icon-background)" stroke="#FF984D" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="12" id="icon-1024-path"></rect><path d="M9.354 16V7.24H12.174C12.99 7.24 13.638 7.476 14.118 7.948C14.606 8.412 14.85 9.036 14.85 9.82C14.85 10.604 14.606 11.232 14.118 11.704C13.638 12.168 12.99 12.4 12.174 12.4H10.434V16H9.354ZM10.434 11.428H12.174C12.646 11.428 13.022 11.284 13.302 10.996C13.59 10.7 13.734 10.308 13.734 9.82C13.734 9.324 13.59 8.932 13.302 8.644C13.022 8.356 12.646 8.212 12.174 8.212H10.434V11.428Z" fill="var(--color-text)" id="icon-1024-text"></path></svg><span>api_<wbr/>allowed</span></a>
 <a href="_internal_.Instance.html#cors_allowed" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>cors_<wbr/>allowed</span></a>
+<a href="_internal_.Instance.html#health" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>health?</span></a>
 <a href="_internal_.Instance.html#region" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>region</span></a>
 <a href="_internal_.Instance.html#type" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>type</span></a>
 <a href="_internal_.Instance.html#url" class="tsd-index-link tsd-kind-property tsd-parent-kind-class"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg><span>url</span></a>
@@ -60,7 +63,7 @@
 <section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class"><a id="constructor" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>constructor</span><a href="#constructor" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" id="icon-anchor-a"></path><path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" id="icon-anchor-b"></path><path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" id="icon-anchor-c"></path></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
-<li class="tsd-signature tsd-anchor-link" id="constructor.new_Instance">new <wbr/>Instance<span class="tsd-signature-symbol">(</span>region<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, cors_allowed<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span>, api_allowed<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span>, type<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, url<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_internal_.Instance.html" class="tsd-signature-type" data-tsd-kind="Class">Instance</a><a href="#constructor.new_Instance" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="constructor.new_Instance">new <wbr/>Instance<span class="tsd-signature-symbol">(</span>region<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, cors_allowed<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span>, api_allowed<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span>, type<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, url<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, health<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_internal_.Instance.html" class="tsd-signature-type" data-tsd-kind="Class">Instance</a><a href="#constructor.new_Instance" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
@@ -74,37 +77,44 @@
 <li>
 <h5>type: <span class="tsd-signature-type">string</span></h5></li>
 <li>
-<h5>url: <span class="tsd-signature-type">string</span></h5></li></ul></div>
+<h5>url: <span class="tsd-signature-type">string</span></h5></li>
+<li>
+<h5><code class="tsd-tag ts-flagOptional">Optional</code> health: <span class="tsd-signature-type">number</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="_internal_.Instance.html" class="tsd-signature-type" data-tsd-kind="Class">Instance</a></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/InvidJS/InvidJS/blob/f6c4deb/classes/instance.ts#L17">classes/instance.ts:17</a></li></ul></aside></li></ul></section></section>
+<li>Defined in <a href="https://github.com/InvidJS/InvidJS/blob/24072f7/classes/instance.ts#L19">classes/instance.ts:19</a></li></ul></aside></li></ul></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Properties</h2>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="api_allowed" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>api_<wbr/>allowed</span><a href="#api_allowed" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">api_<wbr/>allowed<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/InvidJS/InvidJS/blob/f6c4deb/classes/instance.ts#L14">classes/instance.ts:14</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/InvidJS/InvidJS/blob/24072f7/classes/instance.ts#L15">classes/instance.ts:15</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="cors_allowed" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>cors_<wbr/>allowed</span><a href="#cors_allowed" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">cors_<wbr/>allowed<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/InvidJS/InvidJS/blob/f6c4deb/classes/instance.ts#L13">classes/instance.ts:13</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/InvidJS/InvidJS/blob/24072f7/classes/instance.ts#L14">classes/instance.ts:14</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="health" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagOptional">Optional</code> <span>health</span><a href="#health" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
+<div class="tsd-signature">health<span class="tsd-signature-symbol">?:</span> <span class="tsd-signature-type">number</span></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/InvidJS/InvidJS/blob/24072f7/classes/instance.ts#L18">classes/instance.ts:18</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="region" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>region</span><a href="#region" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">region<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/InvidJS/InvidJS/blob/f6c4deb/classes/instance.ts#L12">classes/instance.ts:12</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/InvidJS/InvidJS/blob/24072f7/classes/instance.ts#L13">classes/instance.ts:13</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="type" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>type</span><a href="#type" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/InvidJS/InvidJS/blob/f6c4deb/classes/instance.ts#L15">classes/instance.ts:15</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/InvidJS/InvidJS/blob/24072f7/classes/instance.ts#L16">classes/instance.ts:16</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class"><a id="url" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>url</span><a href="#url" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">url<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/InvidJS/InvidJS/blob/f6c4deb/classes/instance.ts#L16">classes/instance.ts:16</a></li></ul></aside></section></section></div>
+<li>Defined in <a href="https://github.com/InvidJS/InvidJS/blob/24072f7/classes/instance.ts#L17">classes/instance.ts:17</a></li></ul></aside></section></section></div>
 <div class="col-4 col-menu menu-sticky-wrap menu-highlight">
 <div class="tsd-navigation settings">
 <details class="tsd-index-accordion"><summary class="tsd-accordion-summary">
@@ -133,6 +143,7 @@
 <li class="tsd-kind-constructor tsd-parent-kind-class"><a href="_internal_.Instance.html#constructor" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-512-path"></use><use href="#icon-512-text"></use></svg>constructor</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class"><a href="_internal_.Instance.html#api_allowed" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>api_<wbr/>allowed</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class"><a href="_internal_.Instance.html#cors_allowed" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>cors_<wbr/>allowed</a></li>
+<li class="tsd-kind-property tsd-parent-kind-class"><a href="_internal_.Instance.html#health" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>health?</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class"><a href="_internal_.Instance.html#region" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>region</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class"><a href="_internal_.Instance.html#type" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>type</a></li>
 <li class="tsd-kind-property tsd-parent-kind-class"><a href="_internal_.Instance.html#url" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-1024-path"></use><use href="#icon-1024-text"></use></svg>url</a></li></ul></li></ul></nav></div></div>

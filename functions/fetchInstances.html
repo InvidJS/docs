@@ -22,7 +22,7 @@
 <div class="tsd-comment tsd-typography">
 <h3>Name</h3><p>fetchInstances</p>
 
-<h3>Description</h3><p>Fetches active instances.</p>
+<h3>Description</h3><p>Fetches public Invidious instances.</p>
 
 <h3>Example</h3><pre><code class="language-ts"><span class="hl-0">await</span><span class="hl-1"> </span><span class="hl-3">InvidJS</span><span class="hl-1">.</span><span class="hl-7">fetchInstances</span><span class="hl-1">();</span>
 </code></pre>
@@ -37,11 +37,11 @@
 <ul class="tsd-parameter-list">
 <li>
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> opts: <a href="../interfaces/_internal_.InstanceFetchOptions.html" class="tsd-signature-type" data-tsd-kind="Interface">InstanceFetchOptions</a><span class="tsd-signature-symbol"> = ...</span></h5>
-<div class="tsd-comment tsd-typography"><p>Search options.</p>
+<div class="tsd-comment tsd-typography"><p>Instance filtering options.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../classes/_internal_.Instance.html" class="tsd-signature-type" data-tsd-kind="Class">Instance</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/InvidJS/InvidJS/blob/f6c4deb/index.ts#L46">index.ts:46</a></li></ul></aside></li></ul></section></div>
+<li>Defined in <a href="https://github.com/InvidJS/InvidJS/blob/24072f7/index.ts#L47">index.ts:47</a></li></ul></aside></li></ul></section></div>
 <div class="col-4 col-menu menu-sticky-wrap menu-highlight">
 <div class="tsd-navigation settings">
 <details class="tsd-index-accordion"><summary class="tsd-accordion-summary">
@@ -65,8 +65,8 @@
 <li class="tsd-kind-module"><a href="../modules/_internal_.html">&lt;internal&gt;</a></li></ul></li></ul></div></details></nav>
 <nav class="tsd-navigation secondary menu-sticky">
 <ul>
-<li class="tsd-kind-function"><a href="downloadSource.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><rect fill="var(--color-icon-background)" stroke="var(--color-ts-function)" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="6" id="icon-64-path"></rect><path d="M9.39 16V7.24H14.55V8.224H10.446V11.128H14.238V12.112H10.47V16H9.39Z" fill="var(--color-text)" id="icon-64-text"></path></svg>download<wbr/>Source</a></li>
-<li class="tsd-kind-function"><a href="fetchChannel.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-64-path"></use><use href="#icon-64-text"></use></svg>fetch<wbr/>Channel</a></li>
+<li class="tsd-kind-enum"><a href="../enums/ErrorCodes.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><rect fill="var(--color-icon-background)" stroke="var(--color-ts-enum)" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="6" id="icon-8-path"></rect><path d="M9.45 16V7.24H14.49V8.224H10.518V10.936H14.07V11.908H10.518V15.016H14.49V16H9.45Z" fill="var(--color-text)" id="icon-8-text"></path></svg>Error<wbr/>Codes</a></li>
+<li class="tsd-kind-function"><a href="fetchChannel.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><rect fill="var(--color-icon-background)" stroke="var(--color-ts-function)" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="6" id="icon-64-path"></rect><path d="M9.39 16V7.24H14.55V8.224H10.446V11.128H14.238V12.112H10.47V16H9.39Z" fill="var(--color-text)" id="icon-64-text"></path></svg>fetch<wbr/>Channel</a></li>
 <li class="tsd-kind-function"><a href="fetchChannelPlaylists.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-64-path"></use><use href="#icon-64-text"></use></svg>fetch<wbr/>Channel<wbr/>Playlists</a></li>
 <li class="tsd-kind-function"><a href="fetchChannelVideos.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-64-path"></use><use href="#icon-64-text"></use></svg>fetch<wbr/>Channel<wbr/>Videos</a></li>
 <li class="tsd-kind-function"><a href="fetchComments.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-64-path"></use><use href="#icon-64-text"></use></svg>fetch<wbr/>Comments</a></li>
@@ -74,6 +74,7 @@
 <li class="tsd-kind-function"><a href="fetchPlaylist.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-64-path"></use><use href="#icon-64-text"></use></svg>fetch<wbr/>Playlist</a></li>
 <li class="tsd-kind-function"><a href="fetchPopular.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-64-path"></use><use href="#icon-64-text"></use></svg>fetch<wbr/>Popular</a></li>
 <li class="tsd-kind-function"><a href="fetchRelatedChannels.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-64-path"></use><use href="#icon-64-text"></use></svg>fetch<wbr/>Related<wbr/>Channels</a></li>
+<li class="tsd-kind-function"><a href="fetchSource.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-64-path"></use><use href="#icon-64-text"></use></svg>fetch<wbr/>Source</a></li>
 <li class="tsd-kind-function"><a href="fetchStats.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-64-path"></use><use href="#icon-64-text"></use></svg>fetch<wbr/>Stats</a></li>
 <li class="tsd-kind-function"><a href="fetchTrending.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-64-path"></use><use href="#icon-64-text"></use></svg>fetch<wbr/>Trending</a></li>
 <li class="tsd-kind-function"><a href="fetchVideo.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-64-path"></use><use href="#icon-64-text"></use></svg>fetch<wbr/>Video</a></li>
