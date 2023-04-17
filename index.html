@@ -14,16 +14,19 @@
 <h2>InvidJS</h2></div>
 <div class="tsd-panel tsd-typography"><a id="md:invidjs" class="tsd-anchor"></a><h1><a href="#$invidjs" style="color:inherit;text-decoration:none">InvidJS</a></h1><p><a href="https://github.com/InvidJS/InvidJS/actions/workflows/tests.yml"><img src="https://github.com/InvidJS/InvidJS/actions/workflows/tests.yml/badge.svg" alt="CI - Run tests"></a>
 <a href="https://github.com/InvidJS/InvidJS/actions/workflows/docs.yml"><img src="https://github.com/InvidJS/InvidJS/actions/workflows/docs.yml/badge.svg" alt="CI - Build docs"></a>
-<a href="https://github.com/InvidJS/InvidJS/actions/workflows/npm-publish.yml"><img src="https://github.com/InvidJS/InvidJS/actions/workflows/npm-publish.yml/badge.svg" alt="CI - Publish"></a></p>
+<a href="https://github.com/InvidJS/InvidJS/actions/workflows/npm-publish.yml"><img src="https://github.com/InvidJS/InvidJS/actions/workflows/npm-publish.yml/badge.svg" alt="CI - Publish"></a>
+<img src="https://img.shields.io/npm/dt/@invidjs/invid-js" alt="npm"></p>
 <p>An attempt to bring Invidious support to Node.js.</p>
-<a id="md:installation-and-usage" class="tsd-anchor"></a><h1><a href="#$installation-and-usage" style="color:inherit;text-decoration:none">Installation and usage</a></h1><p>To install InvidJS, type <code>npm install @invidjs/invid-js</code> in your terminal.</p>
-<p>To use it in your own project, type the following:</p>
+<a id="md:installation-and-usage" class="tsd-anchor"></a><h1><a href="#$installation-and-usage" style="color:inherit;text-decoration:none">Installation and usage</a></h1><p>Your Node.js version must be 16.9.0 or greater. 
+You can check your version by typing <code>node -v</code> in the terminal.</p>
+<p>To install InvidJS, type <code>npm install @invidjs/invid-js</code> in your terminal.</p>
+<p>After installing, insert the following in your code:</p>
 <pre><code class="language-js"><span class="hl-0">import</span><span class="hl-1"> </span><span class="hl-2">*</span><span class="hl-1"> </span><span class="hl-0">as</span><span class="hl-1"> </span><span class="hl-3">InvidJS</span><span class="hl-1"> </span><span class="hl-0">from</span><span class="hl-1"> </span><span class="hl-4">&quot;@invidjs/invid-js&quot;</span><span class="hl-1"> </span><span class="hl-5">//TypeScript, ESM Node.js</span><br/><span class="hl-2">const</span><span class="hl-1"> </span><span class="hl-6">InvidJS</span><span class="hl-1"> = </span><span class="hl-7">require</span><span class="hl-1">(</span><span class="hl-4">&quot;@invidjs/invid-js&quot;</span><span class="hl-1">) </span><span class="hl-5">//CSM Node.js</span>
 </code></pre>
 <a id="md:changes-from-the-stock-invidious-api" class="tsd-anchor"></a><h1><a href="#$changes-from-the-stock-invidious-api" style="color:inherit;text-decoration:none">Changes from the stock Invidious API</a></h1><ul>
 <li>Useless/broken endpoints, such as annotations and captions are not carried over. This might be reconsidered in the future.</li>
 <li>To reduce noise, only the most important data is fetched in the case of big objects.</li>
-<li>Some unavailable data is filled in for you where possible. Examples of this include mixes and formats with undefined containers.</li>
+<li>Some data is filled in for you and/or made humanly-readable where possible. Examples of this include mixes and formats with undefined containers.</li>
 <li>Minimal and basic versions of objects are available to be consistent with different outputs.</li>
 <li>Limit options are provided where they&#39;re not normally supported by the API.</li>
 <li>Some objects and outputs are combined, for example:<ul>
@@ -34,7 +37,7 @@
 </li>
 </ul>
 <a id="md:building-from-source" class="tsd-anchor"></a><h1><a href="#$building-from-source" style="color:inherit;text-decoration:none">Building from source</a></h1><p>To build the package, clone this repository and execute <code>npm run build</code> in your terminal.</p>
-<p><a href="https://invidjs.github.io/docs/modules.html">Documentation</a></p>
+<p><a href="https://invidjs.github.io/docs/">Documentation</a></p>
 </div></div>
 <div class="col-sidebar">
 <div class="page-menu">
